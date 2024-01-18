@@ -1,3 +1,91 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+nav {
+    height: 50px;
+    background-color: #212121;;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu_link {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 15px; 
+    text-decoration: none;
+}
+
+.menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    height: 87px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader_official {
+    margin-top: 6px;
+    opacity: .6;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.subheader_call {
+    margin-top: 19px;
+    color: #FFF;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.subheader_phone {
+    margin-top: 10px;
+    display: block;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;   
+    line-height: 12px;
+    text-align: right;
+
+}
+
+.subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 328.571% */
+    text-transform: uppercase;
+}
+
+
